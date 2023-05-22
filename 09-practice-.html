@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    
+<h1>Techproed Survey Form</h1>
+
+<form action="user register" method="post">
+    <h4>Thank you for taking  the time to help us improve the platform</h4>
+
+<label for="name">Name</label>
+<br>
+<input type="text" id="name" placeholder="Enter your name">
+
+<br>
+
+<label for="surname">Surname</label>
+<br>
+<input type="text" id="surname" placeholder="Enter your surname">
+
+<br>
+<label for="email">Email</label>
+<br>
+<input type="email" id="email" placeholder="Enter your email">
+<br>
+<h4>Which option best describe your current role?</h4>
+<br>
+<select name="role" id="role">
+
+<option disabled selected>Select a role</option>
+<option value="1">Frontend Developer</option>
+<option value="2">Backend Developer</option>
+<option value="3">Data Scientiest</option>
+<option value="4">QA engineer</option>
+<option value="5">Full-Stack Developer</option>
+</select>
+
+<h4>Would you recommend Techproeducation to a friend</h4>
+
+<input type="radio" name="recommend" id="yes">
+<label for="radio">Definetely yes</label>
+<input type="radio" name="recommend" id="yes">
+<label for="radio">Maybe</label>
+<input type="radio" name="recommend" id="yes">
+<label for="radio">Not sure</label>
+<input type="radio" name="recommend" id="yes">
+<label for="radio">Definetely no</label>
+<br>
+<br>
+<h4>If you took another course,which course would you choose?</h4>
+<br>
+<input type="checkbox" name="choose" id="name">
+<label for="java">Java Developer</label>
+<input type="checkbox" name="choose" id="name">
+<label for="java">Java Developer</label>
+
+<input type="checkbox" name="choose" id="name">
+<label for="java">Mobil Developer</label>
+<input type="checkbox" name="choose" id="name">
+<label for="java">Python Developer</label>
+<input type="checkbox" name="choose" id="name">
+<label for="java">Data Scientiest</label>
+<br>
+<h4> comment and suggestions</h4>
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<br>
+<input type="submit" value="Submit"><!--button type ile submit, send ve reset i yapabiliriz-->
+<button type="reset">Reset</button>
+
+
+
+</form>
+
+</body>
+</html>

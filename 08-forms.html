@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>FORM YAPISI</h1>
+    <form method="post"  action="users/update">
+        <label for="name"> Lutfen adinizi giriniz:</label>
+        <input type="text" id="name"  >
+        <br>
+        <br>
+        <label for="surName">Soyadinizi giriniz</label>
+        <input type="text" id="surName">
+        <br>
+        <br>
+        <label for="email">Epostanizi giriniz</label>
+        <input type="email" id="email">
+        <br>
+        <br>    
+        <label for="sifre">Sifrenizi giriniz</label>
+        <input type="password" id="sifre">
+        <br>
+        <br>    
+        <label for="phoneNumber">Telefon numaranizi giriniz</label>
+        <input type="number" id="phoneNumber" >
+
+        <br>
+        <br>
+        <label for="gender">gender</label>
+
+        <input type="radio" name="gender"id="man">  <!--tek secenekler icin radio tag kullanilir-->
+        <label for="man"> Man</label>
+
+        <input type="radio" name="gender" id="woman"
+        <label for="woman">Woman</label>
+
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label> 
+        <br>
+        <br>
+
+       <label for="start shift">Shift start time</label>
+       <input type="datetime-local" id="shift">
+       <br>
+    <br>
+       <label for="birthday">Enter your birthday</label> 
+       <input type="date" id="birthday">
+       <br>
+       <br>
+       <label for="hobby">Hobies</label>
+       <input type="checkbox" name="hobby1" id="hobby">
+       <label for="tracking">Software</label>
+
+       <input type="checkbox" name="hobby" id="hobby"><!--birden fazla secenek icin checkbox kullanilir-->
+       <label for="hobby">Crypto</label>
+       
+      <input type="checkbox" name="hobby" id="hobby">
+      <label for="Qa">Qa</label>
+
+      <input type="checkbox" name="hobby" id="hobby">
+      <label for="Hobby">Sql</label>
+      <br>
+      <br>
+      <label for="colour">Favorite Colour</label>
+      <input type="colour" id="colour">
+
+   <!-- &nbsp;=ayni satirda space olusturmak icin kullanilir -->
+
+   <br>
+   <br>
+   <label for="gap">Make a gap</label>
+   <input type="range" id="gap"><!--aralik olusturmak icin kullanilir-->
+   <br>
+   <br>
+   <label for="hour">Hour</label>
+   <input type="time" id="time"/><!--saat eklemek icin kullanilir-->
+   <br>
+   <br>
+   <label for="file">Upload file</label>
+   <input type="file" id="file"><!--file or cv etc. upload icin kullanilir-->
+   <br>
+   <br>
+   <select name="city" id=""> <!--belirli options icin kullanilir-->
+
+    <option value="">Place of birth</option>
+
+    <option value="01">Ankara</option>
+    <option value="02">Istanbul</option>
+    <option value="03">Izmir</option>
+   </select>
+   <br>
+   <br>
+   <label for="expectation">Your expectations</label><!---->
+   <textarea name="" id="" cols="30" rows="10"></textarea>
+
+   <br>
+   <br>
+
+
+   <input type="button" value="Button">
+
+   <input type="submit" value="Send"><!--submit datayi backend e gonderir-->
+
+   <input type="reset" value="Reset">
+
+
+
+   </form>
+
+</body>
+</html>
